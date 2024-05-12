@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
@@ -12,5 +18,83 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="page__header">
+        <div class="container">
+          <div class="page__logo">
+            <a href="">Loans.com</a>
+          </div>
+          <nav class="page__menu">
+            <ul class="page__menu-items">
+              <li class="page__menu-item"><a href="">Rates & Fees</a></li>
+              <li class="page__menu-item"><a href="">How to apply</a></li>
+              <li class="page__menu-item"><a href="">Questions?</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="intro">
+        <div class="container">
+          <section class="intro__info">
+            <div class="info__header">
+              <h3 class="info__subtitle">Personal Loan</h3>
+              <h1 class="info__title">Put your plans into actions.</h1>
+            </div>
+            <div class="info__benefits">
+              <ul class="info__benefits-items">
+                <li class="info__benefits-item">
+                  <p class="text-1">Online aplication</p>
+                </li>
+                <li class="info__benefits-item">
+                  <p class="text-2">Up to $50.000</p>
+                </li>
+                <li class="info__benefits-item">
+                  <p class="text-3">The money is yours in 48h</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <form class="intro__form">
+            <h2 class="form__title">Let's change your life?</h2>
+            <div class="form__field">
+              <label for="name">Full name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Doe"
+                class="form__input"
+              />
+            </div>
+            <div class="form__field">
+              <label for="name">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john.doe@apple.com"
+                class="form__input"
+              />
+            </div>
+            <div class="form__field">
+              <label for="number">How much do you need?</label>
+              <input
+                type="numer"
+                id="number"
+                name="number"
+                placeholder="1.000"
+                class="form__input"
+              />
+            </div>
+
+            <button type="submit" class="form__button">Check your rates</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
